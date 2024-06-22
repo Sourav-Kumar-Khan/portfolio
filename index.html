@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Kumar Khan - Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --background-color: #f4f4f4;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            transition: transform 0.2s;
+        }
+        .skill:hover {
+            transform: scale(1.05);
+        }
+        .experience {
+            margin-bottom: 30px;
+        }
+        .experience h3 {
+            color: var(--accent-color);
+        }
+        .hidden {
+            display: none;
+        }
+        #toggleBtn {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        #toggleBtn:hover {
+            background-color: var(--primary-color);
+        }
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sourav Kumar Khan</h1>
+        <p>Machine Learning Engineer</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Contact Information</h2>
+            <p>📱 Mobile: 7908341191</p>
+            <p>📧 Email: khansourav1999@gmail.com</p>
+            <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/sourav-kumar-khan-91639b1a1" target="_blank">www.linkedin.com/in/sourav-kumar-khan-91639b1a1</a></p>
+            <p>🐱 GitHub: <a href="https://github.com/Sourav-Kumar-Khan" target="_blank">github.com/Sourav-Kumar-Khan</a></p>
+        </section>
+
+        <section class="section">
+            <h2>Summary</h2>
+            <p>Machine Learning Engineer with 2 years of experience in a high-growth startup. Proficient in managing end-to-end ML pipelines, including data collection, analysis, to API creation, and deployment on production servers. Skilled in transforming business requirements into technical solutions and leading teams to develop real-world products. Passionate about leveraging large language models to innovate and optimize processes in various business domains.</p>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <span class="skill">Machine Learning</span>
+                <span class="skill">Deep Learning</span>
+                <span class="skill">Reinforcement Learning</span>
+                <span class="skill">NLP</span>
+                <span class="skill">Computer Vision</span>
+                <span class="skill">Python</span>
+                <span class="skill">C/C++</span>
+                <span class="skill">PyTorch</span>
+                <span class="skill">TensorFlow</span>
+                <span class="skill">AWS</span>
+                <span class="skill">Azure</span>
+                <span class="skill">Docker</span>
+                <span class="skill">Git</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>SproutsAI - Machine Learning Engineer</h3>
+                <p>June 2023 - Present (1 year 1 month)</p>
+                <ul>
+                    <li>Developed task-specific AI models to automate business needs</li>
+                    <li>Fine-tuned text embedding models on company-specific data</li>
+                    <li>Deployed models in scalable, containerized environments with API services</li>
+                    <li>Instruct tuned large language models (LLMs) using AWS SageMaker</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>SproutsAI - AI Engineer (NLP)</h3>
+                <p>September 2022 - May 2023 (9 months)</p>
+                <ul>
+                    <li>Worked on innovative NLP and NLU projects</li>
+                    <li>Contributed to the development of an end-to-end autonomous recruitment process</li>
+                    <li>Analyzed and parsed unstructured resume data</li>
+                    <li>Implemented AI-driven solutions for candidate profile optimization</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>IITM PUNE - Project Intern</h3>
+                <p>June 2022 - May 2023 (1 year)</p>
+                <p>Pune, Maharashtra, India</p>
+                <ul>
+                    <li>Conducted master's thesis research on analyzing complex geospatial time series data</li>
+                    <li>Utilized Python modules such as NetCDF, xarray, and dask for data handling</li>
+                    <li>Employed visualization libraries like Seaborn and Matplotlib for data analysis</li>
+                    <li>Extracted insights into Mixed Layer Depth (MLD) over a 20-year period in the Bay of Bengal, studying its impact on tropical cyclones</li>
+                    <li>Leveraged the Pratyush supercomputer at IITM Pune to train over 100 complex ConvLSTM and ConvGRU models for studying seasonal variations</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Master of Technology - MTech, Data Science - Defense Institute of Advanced Technology (DIAT), DU, DRDO (August 2021 - May 2023)</li>
+                <li>Bachelor of Technology - BTech - Ramakrishna Mahato Government Engineering College (August 2017 - July 2021)</li>
+            </ul>
+        </section>
+
+        <button id="toggleBtn">Show More</button>
+        <section id="moreInfo" class="hidden section">
+            <h2>Languages</h2>
+            <ul>
+                <li>English (Full Professional)</li>
+                <li>Hindi (Native or Bilingual)</li>
+                <li>Bengali (Native or Bilingual)</li>
+            </ul>
+
+            <h2>Certifications</h2>
+            <ul>
+                <li>Machine Learning A-Z: Hands on Python in Data Science</li>
+                <li>Learn C++ Programming - Beginner to Advance - Deep Dive in C++</li>
+                <li>Spreadsheets for Beginners using Google Sheets</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const moreInfo = document.getElementById('moreInfo');
+
+        toggleBtn.addEventListener('click', () => {
+            if (moreInfo.classList.contains('hidden')) {
+                moreInfo.classList.remove('hidden');
+                toggleBtn.textContent = 'Show Less';
+            } else {
+                moreInfo.classList.add('hidden');
+                toggleBtn.textContent = 'Show More';
+            }
+        });
+    </script>
+</body>
+</html>
