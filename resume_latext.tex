@@ -1,0 +1,204 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Sourav Kumar Khan}} & Email: \href{mailto:khansourav1999@gmail.com}{khansourav1999@gmail.com}\\
+  \href{https://sourav-kumar-khan.github.io/portfolio/}{Portfolio: sourav-kumar-khan.github.io/portfolio/} & Mobile:~~~+91-7908341191 \\
+  \href{https://github.com/xprilion}{Github: github.com/Sourav-Kumar-Khan} & \href{https://www.linkedin.com/in/sourav-kumar-khan-91639b1a1/}{LinkedIn: Sourav Kumar Khan} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Defense Institute of Advanced Technology (DIAT), DU, DRDO}{Pune, India}
+      {Master of Technology - MTech, Data Science;  GPA: 8.34}{July 2021 - June 2023}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Statistics, Artificial Intelligence, Machine Learning, NLP, Computer Vision, BigData}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section*{Technical Skills:}
+{\small
+\begin{itemize}
+\item \textbf{Machine Learning} - DL, RL, RAG, NLP, PEFT, LoRA, CV, Neural Networks
+\item \textbf{Programming} - Python, C, C++, LATEX, (Familiar with JavaScript, MySQL)
+\item \textbf{Frameworks/Libraries} - PyTorch, TensorFlow, Transformers, Keras, Flask, FastAPI, Pandas, YoLo, Matplotlib, OpenCV, Spacy, HuggingFace
+\item \textbf{Cloud and MLOps} - AWS, Microsoft Azure, CI/CD, Jenkins, Deployment using AWS ECS and Azure container app
+\item \textbf{Other} - LLMs, LangChain, Text-To-Speech, Object-Oriented Programming, SQL, MongoDB, VectorDB, Docker, Git \& Github
+\end{itemize}
+}
+
+\vspace{-5pt}
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading{Techolution}{Remote}
+    {Senior AI Engineer}{Oct 2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Advanced Generative AI \& Code Intelligence Initiatives}
+        {Leading architecture and development of next-generation generative AI systems and code intelligence capabilities, including multi-LLM orchestration, retrieval-augmented generation, and scalable embedding services. Driving roadmap, technical design, and cross-functional collaboration to productionize AI solutions that accelerate developer productivity and enhance enterprise code understanding across the organization.}
+    \resumeItemListEnd
+
+  \resumeSubheading{Techolution}{Hyderabad, India}
+    {AI Engineer}{Sep 2024 -- Oct 2025}
+    \resumeItemListStart
+      \resumeItem{Generative AI \& Code Intelligence Platform}
+        {Designed and implemented core machine learning pipelines for large-scale code intelligence using unsupervised learning, embedding-based representation learning, and clustering algorithms to identify macro and micro-level features from enterprise codebases. Integrated LLM-based summarization to automatically generate human-readable feature descriptions, significantly improving codebase understanding for non-technical stakeholders. This work resulted in a patented solution and is widely used across multiple internal teams.}
+
+      \resumeItem{Enterprise Code Generation (eCG) -- Multi-Agent Systems}
+        {Leading the AI development of an end-to-end generative AI platform for enterprise-grade code generation, enabling automated feature development directly from natural language user queries. Architected a multi-agent orchestration framework where specialized AI agents collaboratively perform requirement clarification, context retrieval, file shortlisting, execution planning, and final code generation. The platform is actively used by multiple teams and continuously improved for accuracy, scalability, and reliability.}
+
+      \resumeItem{Machine Learning Systems \& MLOps}
+        {Built and deployed scalable AI systems using Python, LLM frameworks, and agent-based architectures, with Redis for low-latency caching, AlloyDB for persistent storage, and GKS for containerized production deployment. Implemented best practices for ML system design, inference optimization, monitoring, and iterative model improvement in a production environment.}
+    \resumeItemListEnd
+
+  \resumeSubheading{SproutsAI}{United States (Remote)}
+    {Machine Learning Engineer -- II}{Sep 2022 -- Sep 2024}
+    \resumeItemListStart
+      \resumeItem{AI Model Development \& Deployment}
+        {Accelerated company's AI capabilities by developing and deploying task-specific models, including fine-tuned LLMs, resulting in improved service offerings and increased client satisfaction.}
+      \resumeItem{NLP \& Recruitment Automation}
+        {Streamlined recruitment processes, reducing time-to-hire and improving candidate quality through AI-driven resume parsing and matching solutions for our clients.}
+      \resumeItem{Cloud Integration \& API Optimization}
+        {Reduced operational costs by 30\% through strategic cloud platform utilization and API optimization, enhancing the company's profitability and technological edge.}
+      \resumeItem{Advanced AI Techniques}
+        {Boosted system performance through the implementation of in-context learning and feedback mechanisms, directly addressing specific business requirements and improving overall product quality.}
+    \resumeItemListEnd
+
+  \resumeSubheading{Tata Advanced Systems Limited (TASL)}{Mumbai, India}
+    {Machine Learning Engineer}{Jul 2023 -- Nov 2023}
+    \resumeItemListStart
+      \resumeItem{Radar Data Analysis}
+        {Enhanced TASL's defense capabilities by developing advanced radar data processing techniques, improving fighter jet tracking accuracy by 15\%.}
+      \resumeItem{Data Preprocessing \& Visualization}
+        {Increased data reliability through effective cleaning and visualization of complex radar datasets, leading to more accurate decision-making in defense operations.}
+      \resumeItem{ML Model Development}
+        {Developed ML/DL models that improved trajectory prediction accuracy by 30\% while optimizing for low computational resources, expanding TASL's technological offerings.}
+      \resumeItem{Performance Optimization}
+        {Achieved a 25\% improvement in prediction speed compared to traditional numerical approaches, enhancing TASL's competitive edge in defense instrumentation markets.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}    % \resumeSubheading{SproutsAI}{United States (Remote)}
+    % {AI Engineer (NLP)}{September 2022 - June 2023}
+    % \resumeItemListStart
+    %     \resumeItem{Autonomous Recruitment Process}
+    %       {Contributed to the development of an end-to-end autonomous recruitment process.}
+    %     \resumeItem{Resume Data Analysis}
+    %       {Analyzed and parsed unstructured resume data into structured formats for candidate data analysis.}
+    %     \resumeItem{AI-Driven Candidate Matching}
+    %       {Implemented AI-driven solutions to identify optimal candidate profiles for job openings, incorporating feedback mechanisms and advanced filtering techniques.}
+    % \resumeItemListEnd
+\vspace{5pt}
+
+    \resumeSubheading{Indian Institute of Tropical Meteorology, Pune}{Pune, Maharashtra, India}
+    {Project Intern}{June 2022 - May 2023}
+    \resumeItemListStart
+        \resumeItem{Geospatial Time Series Analysis}
+          {Analyzed complex geospatial time series data for master's thesis using Python modules such as NetCDF, xarray, and dask.}
+        \resumeItem{Data Visualization}
+          {Utilized libraries like Seaborn and Matplotlib to extract insights into Mixed Layer Depth (MLD) over a 20-year period in the Bay of Bengal.}
+        \resumeItem{Advanced Modeling}
+          {Leveraged the Pratyush supercomputer to train over 100 complex ConvLSTM and ConvGRU models for studying seasonal variations.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\section*{Projects}
+\resumeItemListStart
+\resumeItem{Construction Site Safety Detection using YOLOv5}
+{Trained and validated a state-of-the-art YOLOv5 model on a custom construction dataset to detect helmets on workers. Implemented real-time object detection for automated monitoring of basic safety measures on construction sites using video footage.}
+\resumeItem{WhatsApp Group Chat Analysis and Visualization}
+{Exported WhatsApp group messages and performed data cleaning and preprocessing using NLTK and spaCy. Generated visualizations including word clouds, highly active members, and most discussed topics using Matplotlib and Seaborn.}
+\resumeItemListEnd
+
+\vspace{-5pt}
+\section*{Certifications}
+
+\begin{itemize}[leftmargin=*,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+\item Machine Learning A-Z: AI, Python \& R + ChatGPT
+\item Learn C++ Programming - Beginner to Advance - Deep Dive in C++
+\item Ultimate AWS Certified Solutions Architect Associate SAA-C03
+\item The Complete Web Development Bootcamp
+\end{itemize}
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\resumeItemListStart
+\resumeItem{First Position in Poster Presentation}
+{Annual Monsoon Workshop, IMSP Pune, 2023}
+\resumeItem{Gold Badge}
+{NPTEL course (National Programme on Technology Enhanced Learning)}
+\resumeItemListEnd
+
+
+\end{document}
